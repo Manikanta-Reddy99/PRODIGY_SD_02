@@ -24,3 +24,26 @@ The game keeps track of the number of guesses a player makes before guessing cor
 # Option to Play Again:
 
 After the player guesses the correct number, they are given the option to play again or exit the game.
+# technologies and concepts:
+
+### **1. Core Java**
+   - **Programming Language:** The entire project is written in Java, which provides robust libraries and a platform for building a wide range of applications.
+
+### **2. Java Standard Library**
+   - **`java.util.Random`:** 
+     - Used to generate random numbers for the player to guess. This library is part of the Java standard package for utilities.
+   - **`java.util.Scanner`:**
+     - Used to handle user input from the console, making it possible for the player to enter guesses interactively.
+
+### **3. Object-Oriented Programming (OOP) Concepts**
+   - **Classes and Objects:** The code structure revolves around a main class (`GuessingGame`), which encapsulates the logic and execution of the game.
+   - **Encapsulation:** All game logic is contained within a single class, managing input, output, and logic in a modular way.
+
+### **4. Control Structures**
+   - **Loops (`while`):** Used to repeatedly ask the user for a guess until they either win or run out of attempts.
+   - **Conditionals (`if-else`):** Used for decision-making, such as determining whether the guess is too high, too low, or correct, and handling invalid input.
+
+
+### **5. Console-Based User Interface**
+   - The game is designed to be played via the command line or terminal, with all interaction happening through text inputs and outputs.
+
